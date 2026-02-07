@@ -15,7 +15,7 @@ class DINOv3(nn.Module):
         return y
 
 class CIFARNet(nn.Module):
-    def __init__(self, n_classes=10):
+    def __init__(self, n_classes=100):
         super(CIFARNet, self).__init__()
         CHANNELS = [64, 128, 256, 512]
 
