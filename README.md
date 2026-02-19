@@ -25,3 +25,10 @@ TORCH_ROCM_AOTRITON_ENABLE_EXPERIMENTAL=1 python profiler.py
 CPU total time: 20.102ms
 CUDA total time: 10.819ms
 ```
+
+## JAX
+
+```bash
+JAX Numpy TFLOPs: 3.1331106037147096
+CPU Numpy TFLOPs: 0.7818084211333215
+```
